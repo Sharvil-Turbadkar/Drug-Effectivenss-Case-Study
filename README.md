@@ -32,7 +32,7 @@ Multinomial  Naive Bayes gives the best results for TF  vectorizer and ngram(1,3
 
 Linear SVC gives the highest f1 score of 89% after using TF vectorizer with ngram(1,3) for slack varaible C=1 which maintains bias-variance trade-off
 
-## Linear SVC with term frequency input and ngram range of (1,3) givves precision of 86% and recall of 86% beating best performing Bernoulli NB and Multinomial NB by almost 6% and 4% in terms of precision and by 7% and 12% in terms of recall respectively
+### Linear SVC with term frequency input and ngram range of (1,3) givves precision of 86% and recall of 86% beating best performing Bernoulli NB and Multinomial NB by almost 6% and 4% in terms of precision and by 7% and 12% in terms of recall respectively
  
 ## Insights:
 
