@@ -2,13 +2,16 @@
 
 ## Stakeholders: Drug Manufacturers
 ## Goals: 
+
 1)Assist drug manufacturers in making informed decisions 
 2)Performing Root Cause analysis on the drastic drop in drug ratings over the course of 10 years    
 3)Predicting patient conditions using multi-class classification(Naive Bayes and SVM)
 4)Performing Sentimental analysis to extract subjective information in patient reviews and help build a generalized understanding the effectiveness of the drugs
 
 ## Python Packages: pandas, Numpy, sklearn, seaborn, wordcloud 
-Approach :
+
+## Approach :
+
 1)Perform extensive exploratory data analysis which involves trimming white spaces, removing stop words, using Snowball stemmer, tokenizing, and vectorizing data after scraping drug reviews online 
 
 2)Evaluating performance after performing cross-validation and hold out test validation
@@ -17,8 +20,8 @@ Approach :
 
 ## Results:
 
-Minimum Document Frequency of gives highest f1 score 
-Snowball Stemmer works best 
+### Minimum Document Frequency of gives highest f1 score 
+### Snowball Stemmer works best 
  
 Bernoulli Naive Bayes gives the best results for Boolean vectorizer and ngram(1,3) after using cross-validation keeping alpha =0.01
 
