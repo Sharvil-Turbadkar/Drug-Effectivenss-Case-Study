@@ -1,5 +1,6 @@
 # Drug-Sentimental-Case-Study Analysis 
 
+<img src = '/images/drugs.jpg',title='Drug Condition Predictor'>
 
 ## Stakeholders: Drug Manufacturers
 ## Goals: 
