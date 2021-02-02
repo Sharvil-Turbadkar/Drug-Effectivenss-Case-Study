@@ -29,9 +29,10 @@ Multinomial  Naive Bayes gives the best results for TF  vectorizer and ngram(1,3
 
 Linear SVC gives the highest f1 score of 89% after using TF vectorizer with ngram(1,3) for slack varaible C=1 which maintains bias-variance trade-off
 
-Linear SVC with term frequency input and ngram range of (1,3) givves precision of 86% and recall of 86% beating best performing Bernoulli NB and Multinomial NB by almost 6% and 4% in terms of precision and by 7% and 12% in terms of recall respectively
+## Linear SVC with term frequency input and ngram range of (1,3) givves precision of 86% and recall of 86% beating best performing Bernoulli NB and Multinomial NB by almost 6% and 4% in terms of precision and by 7% and 12% in terms of recall respectively
  
-Insights:
+## Insights:
+
 1)Drug ratings have been falling for the past 10 yearsThe prominent conditions in 2009 is Pain while in 2017 it is Birth Control. Thus, we can come to the conclusion that abortion rates are increasing dramatically. 
 
 2)There is a steady fall in drug ratings as drug reviews for birth control pills is mostly negative 
